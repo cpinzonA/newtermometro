@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Roboto+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 3px;
+    background-color: rgb(153, 189, 194);
+    color: aliceblue;
+    width: 90%;
+    margin: 1%;
+    font-size: 30px;  
+    gap: 20px;
+    text-align: center;
+    border-radius: 15px;
+    flex-direction: row;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    margin: 10%;
+  }
+  .derecha{
+    width: 50%;
+    background: linear-gradient(45deg, rgb(188, 207, 193),green);
+    border-radius: 15px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+  h1{
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+  }
+  .form__label,
+.form__label-last {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  margin: 10%;
+}
+.form__input {  
+    padding: 5px;
+    border: 2px solid #333;
+    height: 10%;
+    font-weight: 700;
+    border-radius: 15px;
+  }
+.form__input-last {
+    padding: 5px;
+    height: 10%;
+    border: 2px solid #333;
+    font-weight: 700;
+    background-color: rgb(34, 32, 32);
+    border-radius: 15px;
+  }
+  .form__input-last:hover, .form__input:hover{
+    color:aqua;
+  }
+.btn {
+  font-weight: 700;
+  border: 2px solid #333;
+  margin-top: 2%;
+  padding: 5%;
+  color: green;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 70%;
+
+}
+.btn:hover{
+  background-color: crimson;
+  color: aliceblue;
+
+}
+.izquierda{
+   
+    width: 40%;
+    border: 2px solid #333;
+    background: linear-gradient(45deg, rgb(190, 235, 243),rgb(18, 111, 199));
+    border-radius: 15px;
+    margin: 1%;
+    flex-direction: column;
+    align-content: center;
+
+}
+.barra{
+    margin: 10%;
+    width: 20%;
+    height: 400px;
+    border: 2px solid #333;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    
+    /* background-color: crimson; */
+}
+#medidor{
+    width: 100%;
+    background-color: red;
+    height: 20px; 
+    border-radius: 0px 0px 15px 15px; 
+    
+}
+.reiniciar{
+  font-weight: 700;
+  border: 2px solid #333;
+  margin-top: 2%;
+  padding: 5%;
+  color: rgb(128, 19, 0);
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 70%;
+  background-color: darkgray;
+}
