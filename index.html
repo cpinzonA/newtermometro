@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sthyle.css">
+    <title>Farenteiht</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color:rgb(22, 50, 209)"><span style="color: rgb(255, 30, 0);">conversor</span> de temperatura <span style="color: rgb(199, 199, 25);">industrial</span></h1>
+        <div class="derecha">
+            <form class="form" id="formulario">
+                <label class="form__label" for="Farenteiht">Farenteiht</label>
+                <input
+                  class="form__input" type="number" name="temperaturafar" id="celsiy" placeholder="C"
+                  autocomplete="off" required />
+                <button class="btn" type="submit">convertir</button>
+                <label class="form__label-last" for="celsius"
+                  >celsius</label
+                >
+                <div class="form__input-last">F</div>
+              </form>
+        </div>
+        <div class="izquierda">
+            <div class="barra"> 
+                <div class="medidor" id="medidor">
+                </div>     
+            </div>
+            <h2>barra</h2> 
+        </div>
+        <button class="reiniciar" type="submit" onclick="return validar();">reiniciar</button>     
+    </div>
+    <script type="text/javascript" src="temper.js"></script>
+
+</body>
+</html>
