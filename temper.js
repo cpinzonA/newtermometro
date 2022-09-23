@@ -22,8 +22,9 @@ elForm.addEventListener("submit", function (evt) {
 });
 function validar(){
   formulario.reset();
+  return false;
 }
-validar()
+
 
 
 
