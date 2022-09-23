@@ -15,13 +15,14 @@
                 <label class="form__label" for="Farenteiht">Farenteiht</label>
                 <input
                   class="form__input" type="number" name="temperaturafar" id="celsiy" placeholder="C"
-                  autocomplete="off" required />
+                  autocomplete="off" />
                 <button class="btn" type="submit">convertir</button>
                 <label class="form__label-last" for="celsius"
                   >celsius</label
                 >
-                <div class="form__input-last">F</div>
-              </form>
+                <input type="text" class="form__input-last" disabled/>
+                
+              
         </div>
         <div class="izquierda">
             <div class="barra"> 
@@ -30,7 +31,9 @@
             </div>
             <h2>barra</h2> 
         </div>
-        <button class="reiniciar" type="submit" onclick="return validar();">reiniciar</button>     
+        
+        <button class="reiniciar" type="submit" onclick="validar()">reiniciar</button>     
+    </form>
     </div>
     <script type="text/javascript" src="temper.js"></script>
 
